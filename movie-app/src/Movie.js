@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import "./Movie.css";
-
+import LinesEllipsis from "react-lines-ellipsis";
 // class Movie extends Component {
 //     static propTypes = {
 //         title: PropTypes.string,
@@ -29,7 +29,9 @@ function Movie({ title, poster, genres, synopsis }) {
                         <MovieGenre genre={genre} key={index} />
                     ))}
                 </div>
-                <p className="Movie__Synopsis">{synopsis}</p>
+                <p className="Movie__Synopsis">
+                    <LinesEllipsis text={synopsis} maxLine="3" ellipsis="..." trimRight basedOn="letters" />
+                </p>
             </div>
         </div>
     );
@@ -52,7 +54,7 @@ Movie.propTypes = {
 
 MoviePoster.propTypes = {
     poster: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
 };
 
 MovieGenre.propTypes = {
