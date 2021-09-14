@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Movie_App/static/css/main.bb0bd6b6.chunk.css",
+    "main.css": "/Movie_App/static/css/main.b95c5065.chunk.css",
     "main.js": "/Movie_App/static/js/main.cbdffc9e.chunk.js",
     "main.js.map": "/Movie_App/static/js/main.cbdffc9e.chunk.js.map",
     "runtime-main.js": "/Movie_App/static/js/runtime-main.a59cb78f.js",
@@ -10,13 +10,13 @@
     "static/js/3.43b0ab15.chunk.js": "/Movie_App/static/js/3.43b0ab15.chunk.js",
     "static/js/3.43b0ab15.chunk.js.map": "/Movie_App/static/js/3.43b0ab15.chunk.js.map",
     "index.html": "/Movie_App/index.html",
-    "static/css/main.bb0bd6b6.chunk.css.map": "/Movie_App/static/css/main.bb0bd6b6.chunk.css.map",
+    "static/css/main.b95c5065.chunk.css.map": "/Movie_App/static/css/main.b95c5065.chunk.css.map",
     "static/js/2.da033a00.chunk.js.LICENSE.txt": "/Movie_App/static/js/2.da033a00.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a59cb78f.js",
     "static/js/2.da033a00.chunk.js",
-    "static/css/main.bb0bd6b6.chunk.css",
+    "static/css/main.b95c5065.chunk.css",
     "static/js/main.cbdffc9e.chunk.js"
   ]
 }
